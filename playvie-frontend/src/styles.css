@@ -3,3 +3,12 @@
     margin: 0;
     padding: 0;
 }
+
+:root{
+    --text-white:#ffffff;
+    --letter:'Heebo', sans-serif;
+}
+body{
+    padding-right: 200px;
+    font-family: 'Heebo', sans-serif;
+}

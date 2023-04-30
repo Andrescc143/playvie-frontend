@@ -4,18 +4,13 @@
 .menu{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 0.5rem;
+    padding: 1rem 1rem;
+    border: 1px solid red;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0));
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 60px;
 }
 
 .nav-left{
     display: flex;
-    margin-left: 20px;
 }
 
 .menu ul{
@@ -35,5 +30,4 @@
 
 .nav-right{
     display: flex;
-    margin-right: 20px;
 }

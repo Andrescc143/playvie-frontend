@@ -8,11 +8,13 @@ import { MoviesHighlightComponent } from './components/movies-highlight/movies-h
 import { MoviesComponent } from './components/movies/movies.component';
 import { MoviesSliderComponent } from './components/movies-slider/movies-slider.component';
 import { MovieDetailsComponent } from './components/movie-details/movie-details.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
+    HeaderComponent,
     MoviesHighlightComponent,
     MoviesComponent,
     MoviesSliderComponent,
