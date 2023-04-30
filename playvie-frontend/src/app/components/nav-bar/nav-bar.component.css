@@ -6,11 +6,17 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 0.5rem;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0));
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 60%, rgba(0,0,0,0));
     position: fixed;
     top: 0;
     width: 100vw;
     height: 60px;
+}
+
+.menu .nav-left img{
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
 }
 
 .nav-left{
@@ -28,7 +34,7 @@
 
 .menu ul li a{
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 20px;
     color: var(--text-white);
 
 }
@@ -36,4 +42,8 @@
 .nav-right{
     display: flex;
     margin-right: 20px;
+}
+#search{
+    width: 200px;
+    height: 30px;
 }
