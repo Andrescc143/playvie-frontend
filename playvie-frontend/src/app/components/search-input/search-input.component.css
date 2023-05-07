@@ -18,6 +18,7 @@
     width: 100%;
     padding: 0;
     outline: none;
+    border: none;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     background: var(--input-field);
