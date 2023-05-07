@@ -1,0 +1,49 @@
+.sect {
+    width: 100vw;
+    min-height: 500px;
+    position: relative;
+}
+video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+}
+
+.highlight-description{
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    bottom: 10vh;
+    left: 3vw;
+}
+
+.highlight-description::after{
+    background: var(--black-opacity);
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.highlight-content{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    position: relative;
+    color: var(--text-white);
+}
+
+.highlight-content h2,
+.highlight-content p,
+.highlight-content button{
+    margin-bottom: 20px;
+}

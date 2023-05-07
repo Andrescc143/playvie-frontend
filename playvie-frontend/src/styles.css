@@ -10,6 +10,7 @@
     --input-field: #3c3c3c;
     --border-inputs: #dc1c2b;
     --letter:'Heebo', sans-serif;
+    --black-opacity: #0000006b;
 }
 body{
     padding-right: 200px;

@@ -28,6 +28,7 @@
 
 .input-field:focus{
     border: 2px solid var(--border-inputs);
-    color: var(--input-button);
-    background: var(--text-white);
+    color: var(--text-white);
+    background: var(--input-field);
 }
+
