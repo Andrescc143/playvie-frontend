@@ -8,11 +8,13 @@
     --text-white:#ffffff;
     --input-button: #000000;
     --input-field: #3c3c3c;
-    --border-inputs: #dc1c2b;
+    --red: #dc1c2b;
+    --red-transparent:#d9424f;
     --letter:'Heebo', sans-serif;
     --black-opacity: #0000006b;
 }
 body{
     padding-right: 200px;
     font-family: 'Heebo', sans-serif;
+    background-color: #000000;
 }

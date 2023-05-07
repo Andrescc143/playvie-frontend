@@ -10,6 +10,7 @@ import { MoviesSliderComponent } from './components/movies-slider/movies-slider.
 import { MovieDetailsComponent } from './components/movie-details/movie-details.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SearchInput } from './components/search-input/search-input.component';
+import { MainButton } from './components/main-button/main-button.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SearchInput } from './components/search-input/search-input.component';
     MoviesComponent,
     MoviesSliderComponent,
     MovieDetailsComponent,
-    SearchInput
+    SearchInput,
+    MainButton
   ],
   imports: [
     BrowserModule,

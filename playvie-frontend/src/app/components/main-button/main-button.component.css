@@ -1,0 +1,21 @@
+.contained-button{
+    padding: 0.7rem 1.5rem;
+    background: var(--red);
+    outline: none;
+    border: none;
+    color: var(--text-white);
+    cursor: pointer;
+}
+
+.contained-button,
+.contained-button  > *{
+    transition: all 0.3s ease-in-out;
+}
+
+.contained-button:hover > *{
+    transform: scale(1.2);
+}
+
+.contained-button:hover{
+    background: var(--red-transparent);
+}
