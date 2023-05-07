@@ -6,6 +6,9 @@
 
 :root{
     --text-white:#ffffff;
+    --input-button: #000000;
+    --input-field: #3c3c3c;
+    --border-inputs: #dc1c2b;
     --letter:'Heebo', sans-serif;
 }
 body{
