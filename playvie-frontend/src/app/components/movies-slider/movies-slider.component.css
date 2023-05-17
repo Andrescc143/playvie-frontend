@@ -1,0 +1,33 @@
+.slider-container{
+    width: 100vw;
+    height: 250px;
+    padding: 5px 20px;
+    background-color: black;
+    position: relative;
+    bottom:20vh;
+}
+
+.slider{
+    display: flex;
+    width: 100vw;
+    overflow-x: auto;
+}
+
+.slider-container h1{
+    color: var(--text-white);
+    margin-bottom: 10px;
+}
+
+.card-movie{
+    width: 300px;
+    height: 200px;
+    background: var(--input-button);
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.card-movie img{
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}

@@ -14,7 +14,8 @@
     --black-opacity: #0000006b;
 }
 body{
-    padding-right: 200px;
+    overflow-x: hidden;
+    width: 100vw;
     font-family: 'Heebo', sans-serif;
     background-color: #000000;
 }
