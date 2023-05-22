@@ -18,6 +18,15 @@
     margin-bottom: 10px;
 }
 
+.slider-hidden::-webkit-scrollbar{
+    display: none;
+}
+
+.slider-hidden-2{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 .card-movie{
     width: 300px;
     height: 200px;
