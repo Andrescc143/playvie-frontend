@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --text-white:#ffffff;
+    --input-button: #000000;
+    --input-field: #3c3c3c;
+    --red: #dc1c2b;
+    --red-transparent:#d9424f;
+    --letter:'Heebo', sans-serif;
+    --black-opacity: #0000006b;
+}
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    font-family: 'Heebo', sans-serif;
+    background-color: #000000;
+}

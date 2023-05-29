@@ -8,15 +8,23 @@ import { MoviesHighlightComponent } from './components/movies-highlight/movies-h
 import { MoviesComponent } from './components/movies/movies.component';
 import { MoviesSliderComponent } from './components/movies-slider/movies-slider.component';
 import { MovieDetailsComponent } from './components/movie-details/movie-details.component';
+import { HeaderComponent } from './components/header/header.component';
+import { SearchInput } from './components/search-input/search-input.component';
+import { MainButton } from './components/main-button/main-button.component';
+import { CardMovie } from './components/card-movie/card-movie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
+    HeaderComponent,
     MoviesHighlightComponent,
     MoviesComponent,
     MoviesSliderComponent,
-    MovieDetailsComponent
+    MovieDetailsComponent,
+    SearchInput,
+    MainButton,
+    CardMovie
   ],
   imports: [
     BrowserModule,
