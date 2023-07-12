@@ -52,12 +52,16 @@ video {
 @media (max-width: 480px) {
   .highlight-description {
     width: 200px;
-    height: 140px;
+    height: 180px;
+  }
+
+  .highlight-content {
+    height: 100%;
   }
 
   .highlight-content > p {
     overflow: hidden;
-    white-space: nowrap;
+    height: 100%;
     text-overflow: ellipsis;
 }
 
